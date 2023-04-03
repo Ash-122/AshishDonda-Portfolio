@@ -7,6 +7,7 @@ scriptsflow.flowconfig
 .grunt
 _SpecRunner.html
 __benchmarks__
+build
 remote-repo
 coverage
 .module-cache
