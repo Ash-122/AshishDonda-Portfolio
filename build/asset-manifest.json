@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AshishDonda-Portfolio/static/css/main.8da83586.css",
+    "main.js": "/AshishDonda-Portfolio/static/js/main.f7436bf8.js",
+    "static/media/me-about.jpg": "/AshishDonda-Portfolio/static/media/me-about.fb8525d68fecb6dce8c7.jpg",
+    "static/media/proj2.png": "/AshishDonda-Portfolio/static/media/proj2.e3a9cc27d71efcd4e0cf.png",
+    "static/media/proj1.png": "/AshishDonda-Portfolio/static/media/proj1.5017d1045510393e6691.png",
+    "static/media/ASHISH_DONDA_Developer.pdf": "/AshishDonda-Portfolio/static/media/ASHISH_DONDA_Developer.f2b82301addc308d02a7.pdf",
+    "static/media/me.png": "/AshishDonda-Portfolio/static/media/me.a93a54fa94de3a35876a.png",
+    "static/media/proj3.jpg": "/AshishDonda-Portfolio/static/media/proj3.ed57d113ba564ad32114.jpg",
+    "static/media/proj4.jpg": "/AshishDonda-Portfolio/static/media/proj4.30dcbbe6ba2054053801.jpg",
+    "static/media/proj6.jpeg": "/AshishDonda-Portfolio/static/media/proj6.f4830e426e7258b3b461.jpeg",
+    "static/media/proj5.jpg": "/AshishDonda-Portfolio/static/media/proj5.afd3523d5c5d6e235521.jpg",
+    "index.html": "/AshishDonda-Portfolio/index.html",
+    "main.8da83586.css.map": "/AshishDonda-Portfolio/static/css/main.8da83586.css.map",
+    "main.f7436bf8.js.map": "/AshishDonda-Portfolio/static/js/main.f7436bf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8da83586.css",
+    "static/js/main.f7436bf8.js"
+  ]
+}
