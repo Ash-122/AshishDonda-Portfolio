@@ -8,12 +8,14 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Video from './components/video/Video'
 
 
 const App = () => {
   return (
     
     <>
+      
       <Header/>
       <Nav />
       <About />
@@ -22,7 +24,10 @@ const App = () => {
       <Portfolio />
       <Testimonials />
       <Contact />
+      
       <Footer />
+      
+      <Video />
     
     </>
   )

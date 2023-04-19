@@ -1,0 +1,45 @@
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  #myVideo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #myVideo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.vid_1_text {
+  left: 0;
+  opacity: 0;
+  pointer-events: none; /* don’t block video clicks */
+  position: absolute;
+  transition: opacity 150ms linear;
+  top: 0; /* adjust "top" and "left" to taste */
+}
+
+.vid_1_wrapper {
+  position: relative;
+}
+
+.vid_1_wrapper:hover .vid_1 {
+  filter: blur(10px);
+}
+
+.vid_1_wrapper:hover .vid_1_text {
+  opacity: 1;
+}
