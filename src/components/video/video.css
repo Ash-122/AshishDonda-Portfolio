@@ -23,23 +23,29 @@
   }
 }
 
-.vid_1_text {
-  left: 0;
-  opacity: 0;
-  pointer-events: none; /* don’t block video clicks */
+.unmute-btn {
   position: absolute;
-  transition: opacity 150ms linear;
-  top: 0; /* adjust "top" and "left" to taste */
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
 }
 
-.vid_1_wrapper {
-  position: relative;
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #000;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
-.vid_1_wrapper:hover .vid_1 {
-  filter: blur(10px);
-}
-
-.vid_1_wrapper:hover .vid_1_text {
+.vid_1_wrapper:hover .overlay-text {
   opacity: 1;
 }
