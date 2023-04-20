@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
+// import {RiMessengerLine} from 'react-icons/ri'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
