@@ -31,7 +31,7 @@ const Video = () => {
   return (
     
     <div class="vid_1_wrapper">
-        <video id="myVideo" style={{ width: '100vw', height: '100vh' }} autoPlay muted>
+        <video id="myVideo" autoPlay muted>
         <source src={intro} type="video/mp4"  />
         <div class="vid_1_text">Click to STOP</div>
       </video>
